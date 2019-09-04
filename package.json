@@ -1,0 +1,33 @@
+{
+	"name": "contactKeeper",
+	"version": "1.0.0",
+	"description": "MERN contact sharing applications",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js",
+		"server": "nodemon server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Jinsuk312/contactKeeper.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Jinsuk312/contactKeeper/issues"
+	},
+	"homepage": "https://github.com/Jinsuk312/contactKeeper#readme",
+	"dependencies": {
+		"bcryptjs": "^2.4.3",
+		"config": "^3.2.2",
+		"express": "^4.17.1",
+		"express-validator": "^6.2.0",
+		"jsonwebtoken": "^8.5.1",
+		"mongoose": "^5.6.12"
+	},
+	"devDependencies": {
+		"concurrently": "^4.1.2",
+		"nodemon": "^1.19.2"
+	}
+}
