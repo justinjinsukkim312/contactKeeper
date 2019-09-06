@@ -1,3 +1,3 @@
 # contactKeeper
 MERN contact sharing applications
-[Imgur](https://i.imgur.com/khnqNNw.png)
+[Imgur Image](https://i.imgur.com/khnqNNw.png)
