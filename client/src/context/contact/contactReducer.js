@@ -33,6 +33,14 @@ export default (state, action) => {
 				),
 				loading: false
 			};
+		case CLEAR_CONTACTS:
+			return {
+				...state,
+				contacts: null,
+				filtered: null,
+				error: null,
+				current: null
+			};
 		case SET_CURRENT:
 			return {
 				...state,
